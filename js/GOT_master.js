@@ -1,25 +1,21 @@
 (() => {
-	console.log('fired');
+	console.log("working");
 
-	//variable stack
-	//grab teh shields at teh bottm f the page
-	const shields = document.querySelectorAll('.sigil-container'),
-		  lightBox = document.querySelector('.light-box');
-		  video = document.querySelector('video');
+	// variable stack
+	// grab the shields at the bottom of the page
+	const 	shields 	= document.querySelectorAll('.sigil-container'),
+			lightBox 	= document.querySelector('.lightbox'),
+			video		= document.querySelector('video');
 
-
-	function showLightBox() {
+	function showLightbox() {
 		lightBox.classList.add('show-lightbox');
 	}
 
-	function hideLightBox() {
+	function hideLightbox() {
 		lightBox.classList.remove('show-lightbox');
 	}
 
-	shields.forEach(shield => {
-		shield.addEventListener("click", showLightBox)
-	});
-	video.addEventListener('click', hideLightBox);
+	shields.forEach(shield => shield.addEventListener('click', showLightbox));
 
-
+	video.addEventListener('ended', hideLightbox);
 })();

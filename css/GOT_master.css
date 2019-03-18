@@ -97,13 +97,13 @@ main {
 }
 
 /* add styles here for lightbox and video */
-.light-box {
+.lightbox {
 	position: absolute;
 	top: 0;
 	height: 100%;
 	width: 100%;
 	text-align: center;
-	background: rgba(0,0,0,.8);
+	background: rgba(0,0,0,1);
 	display: none;
 }
 
