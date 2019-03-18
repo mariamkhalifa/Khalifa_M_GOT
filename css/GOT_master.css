@@ -36,7 +36,7 @@ main {
 	overflow:hidden;
 }
 
-#houseImages { position:relative; width:4000px; transition: all .5s; }
+#houseImages { position:relative; width:4000px;} /*transition: all .5s; }*/ /*cann't have transitions fot he msae element as the tweenmax*/
 #houseImages img { float:left; }
 
 #bottomNav { margin-top:30px; }

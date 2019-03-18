@@ -37,8 +37,9 @@
 		const offSet = 600;
 		//this i sthe total distance teh images need to move as a pixel value
 		//dataset.offset is coming from each 
-		totalOffset = this.dataset.offset * offSet + 'px';
-		banners.style.right = totalOffset;
+		totalOffset = this.dataset.offset * offSet; //+ 'px';
+		// banners.style.right = totalOffset;
+		TweenMax.to(banners, 0.8, { right: totalOffset });
 	}
 
 	// shields.forEach(shield => shield.addEventListener('click', showLightbox));
