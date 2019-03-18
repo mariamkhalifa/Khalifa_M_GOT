@@ -13,6 +13,10 @@
 
 	function hideLightbox() {
 		lightBox.classList.remove('show-lightbox');
+		//rewind the video to the beginning
+		////and also pause it
+		video.currentTime = 0;
+		video.pause();
 	}
 
 	shields.forEach(shield => shield.addEventListener('click', showLightbox));
