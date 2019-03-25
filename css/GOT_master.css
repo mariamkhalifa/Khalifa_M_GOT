@@ -28,6 +28,14 @@ main {
 	top:30px;
 }
 
+p {
+	color: white;
+	font-size: 18px;
+	margin-top: 20px;
+	text-align: center;
+	padding: 0 150px;
+}
+
 #imageContainer {
 	width:600px;
 	height:360px;
