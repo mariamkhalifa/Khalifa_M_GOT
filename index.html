@@ -5,13 +5,14 @@
 <title>DOM Traversal</title>
 <link href="css/meyerReset.css" rel="stylesheet" type="text/css" media="screen">
 <link href="css/GOT_master.css" rel="stylesheet" type="text/css" media="screen">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 </head>
 
 <body>
     <main>
 
     <section id="imageContainer">
-    	<div id="houseImages"> <!-- add in all of the images to make a scrolling "banner" -->
+    	<div id="houseImages" style="right:0;"> <!-- add in all of the images to make a scrolling "banner" -->
     		<img src="images/stark.jpg"/>
     		<img src="images/baratheon.jpg"/>
     		<img src="images/lannister.jpg"/>
@@ -40,6 +41,7 @@
 
 <!-- add lightbox here -->
 <section class="lightbox">
+    <span class="close-lightbox">X</span>
     <video src="video/House-Stark.mp4" muted autoplay controls></video>
 </section>
 
