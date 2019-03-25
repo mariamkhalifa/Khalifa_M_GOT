@@ -18,7 +18,7 @@ h1 {
 	font-family: 'GOT_font';
 	color:white;
 	margin-top:30px;
-	font-size:1.25em;
+	font-size:2em;
 }
 
 main {
@@ -30,10 +30,12 @@ main {
 
 p {
 	color: white;
-	font-size: 18px;
+	font-size: 1.25em;
 	margin-top: 20px;
 	text-align: center;
-	padding: 0 150px;
+	padding: 0 300px;
+	line-height: 25px;
+	margin-bottom: 40px;
 }
 
 #imageContainer {
