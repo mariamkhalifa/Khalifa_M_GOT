@@ -121,11 +121,21 @@ p {
 	display: block;
 }
 
+.lightbox p {
+	font-family: 'GOT_font';
+	font-size: 4em;
+	line-height: 1.5em;
+	position: relative;
+	top: 40px;
+	/*top: 400px; */
+	opacity: 0;
+}
 
 video {
 	width: 80%;
-	margin-top: 10%;
+	margin-top: 5%;
 	border: thin solid #949393;
+	opacity: 0;
 }
 
 .close-lightbox {
